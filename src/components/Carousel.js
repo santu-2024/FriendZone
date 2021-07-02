@@ -6,6 +6,7 @@ const Carousel = () => {
             Carousel
             @Y24HD_
             santu
+            riju
         </div>
     )
 }
