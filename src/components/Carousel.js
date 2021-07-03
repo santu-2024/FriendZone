@@ -7,6 +7,7 @@ const Carousel = () => {
             @Y24HD_
             santu
             riju
+            poush
         </div>
     )
 }
