@@ -8,6 +8,7 @@ const Navbar = () => {
             ></img></div>
             app
             santu
+            klk
         </div>
     )
 }
