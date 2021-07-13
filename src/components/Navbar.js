@@ -9,6 +9,7 @@ const Navbar = () => {
             app
             santu
             klk
+            loll
         </div>
     )
 }
