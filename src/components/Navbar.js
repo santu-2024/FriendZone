@@ -8,6 +8,7 @@ const Navbar = () => {
             ></img></div> */}
             <img src="me.png" alt="logo"/>
             app
+            do
         </div>
     )
 }
