@@ -9,6 +9,7 @@ const Navbar = () => {
             <img src="me.png" alt="logo"/>
             app
             do
+            kgdkw
         </div>
     )
 }
