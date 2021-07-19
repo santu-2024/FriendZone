@@ -4,6 +4,7 @@ const Carousel = () => {
     return (
         <div>
             react
+            mern
         </div>
     )
 }
