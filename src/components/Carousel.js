@@ -5,6 +5,7 @@ const Carousel = () => {
         <div>
             react
             mern
+            web
         </div>
     )
 }
