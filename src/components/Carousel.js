@@ -3,7 +3,7 @@ import React from 'react'
 const Carousel = () => {
     return (
         <div>
-            sfwsuyjs
+            app creates history that makes sense
         </div>
     )
 }
