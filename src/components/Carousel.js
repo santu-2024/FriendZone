@@ -4,6 +4,7 @@ const Carousel = () => {
     return (
         <div>
             app creates history that makes sense
+            gxkjgxhui
         </div>
     )
 }
