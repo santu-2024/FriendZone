@@ -3,8 +3,7 @@ import React from 'react'
 const Carousel = () => {
     return (
         <div>
-            app creates history that makes sense
-;l';l;056+-ngfhgn
+          gfhgnc,c mn
         </div>
     )
 }
