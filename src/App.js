@@ -3,26 +3,26 @@ import React from 'react'
 const App = () => {
     return (
     <div>
-      <div class="main-wrapper">
-        <header class="header-area transparent-bar section-padding-1">
-            <div class="container-fluid">
-                <div class="header-large-device">
-                    <div class="header-top header-top-ptb-1 border-bottom-1">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-5">
-                                <div class="header-offer-wrap">
-                                    <p><i class="icon-paper-plane"></i> FREE SHIPPING world wide for all orders over <span>$199</span></p>
+      <div className="main-wrapper">
+        <header className="header-area transparent-bar section-padding-1">
+            <div className="container-fluid">
+                <div className="header-large-device">
+                    <div className="header-top header-top-ptb-1 border-bottom-1">
+                        <div className="row">
+                            <div className="col-xl-4 col-lg-5">
+                                <div className="header-offer-wrap">
+                                    <p><i className="icon-paper-plane"></i> FREE SHIPPING world wide for all orders over <span>$199</span></p>
                                 </div>
                             </div>
-                            <div class="col-xl-8 col-lg-7">
-                                <div class="header-top-right">
-                                    <div class="same-style-wrap">
-                                        <div class="same-style same-style-border track-order">
+                            <div className="col-xl-8 col-lg-7">
+                                <div className="header-top-right">
+                                    <div className="same-style-wrap">
+                                        <div className="same-style same-style-border track-order">
                                             <a href="order-tracking.html">Track Your Order</a>
                                         </div>
-                                        <div class="same-style same-style-border language-wrap">
-                                            <a class="language-dropdown-active" href="#">English <i class="icon-arrow-down"></i></a>
-                                            <div class="language-dropdown">
+                                        <div className="same-style same-style-border language-wrap">
+                                            <a className="language-dropdown-active" href="#">English <i className="icon-arrow-down"></i></a>
+                                            <div className="language-dropdown">
                                                 <ul>
                                                     <li><a href="#">English</a></li>
                                                     <li><a href="#">French</a></li>
@@ -31,9 +31,9 @@ const App = () => {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="same-style same-style-border currency-wrap">
-                                            <a class="currency-dropdown-active" href="#">US Dollar <i class="icon-arrow-down"></i></a>
-                                            <div class="currency-dropdown">
+                                        <div className="same-style same-style-border currency-wrap">
+                                            <a className="currency-dropdown-active" href="#">US Dollar <i className="icon-arrow-down"></i></a>
+                                            <div className="currency-dropdown">
                                                 <ul>
                                                     <li><a href="#">USD</a></li>
                                                     <li><a href="#">EUR</a></li>
@@ -43,30 +43,30 @@ const App = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="social-style-1 social-style-1-mrg">
-                                        <a href="#"><i class="icon-social-twitter"></i></a>
-                                        <a href="#"><i class="icon-social-facebook"></i></a>
-                                        <a href="#"><i class="icon-social-instagram"></i></a>
-                                        <a href="#"><i class="icon-social-youtube"></i></a>
-                                        <a href="#"><i class="icon-social-pinterest"></i></a>
+                                    <div className="social-style-1 social-style-1-mrg">
+                                        <a href="#"><i className="icon-social-twitter"></i></a>
+                                        <a href="#"><i className="icon-social-facebook"></i></a>
+                                        <a href="#"><i className="icon-social-instagram"></i></a>
+                                        <a href="#"><i className="icon-social-youtube"></i></a>
+                                        <a href="#"><i className="icon-social-pinterest"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="header-bottom">
-                        <div class="row align-items-center">
-                            <div class="col-xl-2 col-lg-2">
-                                <div class="logo">
+                    <div className="header-bottom">
+                        <div className="row align-items-center">
+                            <div className="col-xl-2 col-lg-2">
+                                <div className="logo">
                                     <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo"/></a>
                                 </div>
                             </div>
-                            <div class="col-xl-8 col-lg-7">
-                                <div class="main-menu main-menu-padding-1 main-menu-lh-1">
+                            <div className="col-xl-8 col-lg-7">
+                                <div className="main-menu main-menu-padding-1 main-menu-lh-1">
                                     <nav>
                                         <ul>
                                             <li><a href="index.html">HOME </a>
-                                                <ul class="sub-menu-style">
+                                                <ul className="sub-menu-style">
                                                     <li><a href="index.html">Home version 1 </a></li>
                                                     <li><a href="index-2.html">Home version 2</a></li>
                                                     <li><a href="index-3.html">Home version 3</a></li>
@@ -80,11 +80,11 @@ const App = () => {
                                                 </ul>
                                             </li>
                                             <li><a href="shop.html">SHOP </a>
-                                                <ul class="mega-menu-style mega-menu-mrg-1">
+                                                <ul className="mega-menu-style mega-menu-mrg-1">
                                                     <li>
                                                         <ul>
                                                             <li>
-                                                                <a class="dropdown-title" href="#">Shop Layout</a>
+                                                                <a className="dropdown-title" href="#">Shop Layout</a>
                                                                 <ul>
                                                                     <li><a href="shop.html">standard style</a></li>
                                                                     <li><a href="shop-list.html">shop list style</a></li>
@@ -96,7 +96,7 @@ const App = () => {
                                                                 </ul>
                                                             </li>
                                                             <li>
-                                                                <a class="dropdown-title" href="#">Products Layout</a>
+                                                                <a className="dropdown-title" href="#">Products Layout</a>
                                                                 <ul>
                                                                     <li><a href="product-details.html">tab style 1</a></li>
                                                                     <li><a href="product-details-2.html">tab style 2</a></li>
@@ -115,7 +115,7 @@ const App = () => {
                                                 </ul>
                                             </li>
                                             <li><a href="#">PAGES </a>
-                                                <ul class="sub-menu-style">
+                                                <ul className="sub-menu-style">
                                                     <li><a href="about-us.html">about us </a></li>
                                                     <li><a href="cart.html">cart page</a></li>
                                                     <li><a href="checkout.html">checkout </a></li>
@@ -128,7 +128,7 @@ const App = () => {
                                                 </ul>
                                             </li>
                                             <li><a href="blog.html">BLOG </a>
-                                                <ul class="sub-menu-style">
+                                                <ul className="sub-menu-style">
                                                     <li><a href="blog.html">blog standard </a></li>
                                                     <li><a href="blog-no-sidebar.html">blog no sidebar </a></li>
                                                     <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
@@ -140,29 +140,29 @@ const App = () => {
                                     </nav>
                                 </div>
                             </div>
-                            <div class="col-xl-2 col-lg-3">
-                                <div class="header-action header-action-flex header-action-mrg-right">
-                                    <div class="same-style-2 header-search-1">
-                                        <a class="search-toggle" href="#">
-                                            <i class="icon-magnifier s-open"></i>
-                                            <i class="icon_close s-close"></i>
+                            <div className="col-xl-2 col-lg-3">
+                                <div className="header-action header-action-flex header-action-mrg-right">
+                                    <div className="same-style-2 header-search-1">
+                                        <a className="search-toggle" href="#">
+                                            <i className="icon-magnifier s-open"></i>
+                                            <i className="icon_close s-close"></i>
                                         </a>
-                                        <div class="search-wrap-1">
+                                        <div className="search-wrap-1">
                                             <form action="#">
                                                 <input placeholder="Search products…" type="text"/>
-                                                <button class="button-search"><i class="icon-magnifier"></i></button>
+                                                <button className="button-search"><i className="icon-magnifier"></i></button>
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="same-style-2">
-                                        <a href="login-register.html"><i class="icon-user"></i></a>
+                                    <div className="same-style-2">
+                                        <a href="login-register.html"><i className="icon-user"></i></a>
                                     </div>
-                                    <div class="same-style-2">
-                                        <a href="wishlist.html"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
+                                    <div className="same-style-2">
+                                        <a href="wishlist.html"><i className="icon-heart"></i><span className="pro-count red">03</span></a>
                                     </div>
-                                    <div class="same-style-2 header-cart">
-                                        <a class="cart-active" href="#">
-                                            <i class="icon-basket-loaded"></i><span class="pro-count red">02</span>
+                                    <div className="same-style-2 header-cart">
+                                        <a className="cart-active" href="#">
+                                            <i className="icon-basket-loaded"></i><span className="pro-count red">02</span>
                                         </a>
                                     </div>
                                 </div>
@@ -170,30 +170,30 @@ const App = () => {
                         </div>
                     </div>
                 </div>
-                <div class="header-small-device small-device-ptb-1">
-                    <div class="row align-items-center">
-                        <div class="col-5">
-                            <div class="mobile-logo">
+                <div className="header-small-device small-device-ptb-1">
+                    <div className="row align-items-center">
+                        <div className="col-5">
+                            <div className="mobile-logo">
                                 <a href="index.html">
                                     <img alt="" src="assets/images/logo/logo.png"/>
                                 </a>
                             </div>
                         </div>
-                        <div class="col-7">
-                            <div class="header-action header-action-flex">
-                                <div class="same-style-2">
-                                    <a href="login-register.html"><i class="icon-user"></i></a>
+                        <div className="col-7">
+                            <div className="header-action header-action-flex">
+                                <div className="same-style-2">
+                                    <a href="login-register.html"><i className="icon-user"></i></a>
                                 </div>
-                                <div class="same-style-2">
-                                    <a href="wishlist.html"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
+                                <div className="same-style-2">
+                                    <a href="wishlist.html"><i className="icon-heart"></i><span className="pro-count red">03</span></a>
                                 </div>
-                                <div class="same-style-2 header-cart">
-                                    <a class="cart-active" href="#">
-                                        <i class="icon-basket-loaded"></i><span class="pro-count red">02</span>
+                                <div className="same-style-2 header-cart">
+                                    <a className="cart-active" href="#">
+                                        <i className="icon-basket-loaded"></i><span className="pro-count red">02</span>
                                     </a>
                                 </div>
-                                <div class="same-style-2 main-menu-icon">
-                                    <a class="mobile-header-button-active" href="#"><i class="icon-menu"></i> </a>
+                                <div className="same-style-2 main-menu-icon">
+                                    <a className="mobile-header-button-active" href="#"><i className="icon-menu"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -201,68 +201,71 @@ const App = () => {
                 </div>
             </div>
         </header>
+        
         {/* <!-- mini cart start --> */}
-        <div class="sidebar-cart-active">
-            <div class="sidebar-cart-all">
-                <a class="cart-close" href="#"><i class="icon_close"></i></a>
-                <div class="cart-content">
+        {/*
+        <div className="sidebar-cart-active">
+            <div className="sidebar-cart-all">
+                <a className="cart-close" href="#"><i className="icon_close"></i></a>
+                <div className="cart-content">
                     <h3>Shopping Cart</h3>
                     <ul>
-                        <li class="single-product-cart">
-                            <div class="cart-img">
+                        <li className="single-product-cart">
+                            <div className="cart-img">
                                 <a href="#"><img src="assets/images/cart/cart-1.jpg" alt=""/></a>
                             </div>
-                            <div class="cart-title">
+                            <div className="cart-title">
                                 <h4><a href="#">Simple Black T-Shirt</a></h4>
                                 <span> 1 × $49.00	</span>
                             </div>
-                            <div class="cart-delete">
+                            <div className="cart-delete">
                                 <a href="#">×</a>
                             </div>
                         </li>
-                        <li class="single-product-cart">
-                            <div class="cart-img">
+                        <li className="single-product-cart">
+                            <div className="cart-img">
                                 <a href="#"><img src="assets/images/cart/cart-2.jpg" alt=""/></a>
                             </div>
-                            <div class="cart-title">
+                            <div className="cart-title">
                                 <h4><a href="#">Norda Backpack</a></h4>
                                 <span> 1 × $49.00	</span>
                             </div>
-                            <div class="cart-delete">
+                            <div className="cart-delete">
                                 <a href="#">×</a>
                             </div>
                         </li>
                     </ul>
-                    <div class="cart-total">
+                    <div className="cart-total">
                         <h4>Subtotal: <span>$170.00</span></h4>
                     </div>
-                    <div class="cart-checkout-btn">
-                        <a class="btn-hover cart-btn-style" href="cart.html">view cart</a>
-                        <a class="no-mrg btn-hover cart-btn-style" href="checkout.html">checkout</a>
+                    <div className="cart-checkout-btn">
+                        <a className="btn-hover cart-btn-style" href="cart.html">view cart</a>
+                        <a className="no-mrg btn-hover cart-btn-style" href="checkout.html">checkout</a>
                     </div>
                 </div>
             </div>
         </div>
+        */}
         {/* <!-- Mobile menu start --> */}
-        <div class="mobile-header-active mobile-header-wrapper-style">
-            <div class="clickalbe-sidebar-wrap">
-                <a class="sidebar-close"><i class="icon_close"></i></a>
-                <div class="mobile-header-content-area">
-                    <div class="header-offer-wrap mobile-header-padding-border-4">
-                        <p><i class="icon-paper-plane"></i> FREE SHIPPING world wide for all orders over <span>$199</span></p>
+        <div className="mobile-header-active mobile-header-wrapper-style">
+            <div className="clickalbe-sidebar-wrap">
+                <a className="sidebar-close"><i className="icon_close"></i></a>
+                <div className="mobile-header-content-area">
+                    <div className="header-offer-wrap mobile-header-padding-border-4">
+                        <p><i className="icon-paper-plane"></i> FREE SHIPPING world wide for all orders over <span>$199</span></p>
                     </div>
-                    <div class="mobile-search mobile-header-padding-border-1">
-                        <form class="search-form" action="#">
+                    <div className="mobile-search mobile-header-padding-border-1">
+                        <form className="search-form" action="#">
                             <input type="text" placeholder="Search here…"/>
-                            <button class="button-search"><i class="icon-magnifier"></i></button>
+                            <button className="button-search"><i className="icon-magnifier"></i></button>
                         </form>
                     </div>
-                    <div class="mobile-menu-wrap mobile-header-padding-border-2">
+                    <div className="mobile-menu-wrap mobile-header-padding-border-2">
                         {/* <!-- mobile menu start --> */}
                         <nav>
-                            <ul class="mobile-menu">
-                                <li class="menu-item-has-children"><a href="index.html">Home</a>
-                                    <ul class="dropdown">
+                            <ul className="mobile-menu">
+                                <li className="menu-item-has-children"><a href="index.html">Home</a>
+                                    <ul className="dropdown">
                                         <li><a href="index.html">Home version 1 </a></li>
                                         <li><a href="index-2.html">Home version 2</a></li>
                                         <li><a href="index-3.html">Home version 3</a></li>
@@ -275,10 +278,10 @@ const App = () => {
                                         <li><a href="index-10.html">Home version 10</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children "><a href="#">shop</a>
-                                    <ul class="dropdown">
-                                        <li class="menu-item-has-children"><a href="#">shop layout</a>
-                                            <ul class="dropdown">
+                                <li className="menu-item-has-children "><a href="#">shop</a>
+                                    <ul className="dropdown">
+                                        <li className="menu-item-has-children"><a href="#">shop layout</a>
+                                            <ul className="dropdown">
                                                 <li><a href="shop.html">standard style</a></li>
                                                 <li><a href="shop-list.html">shop list style</a></li>
                                                 <li><a href="shop-fullwide.html">shop fullwide</a></li>
@@ -288,8 +291,8 @@ const App = () => {
                                                 <li><a href="store-location.html">store location</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Products Layout</a>
-                                            <ul class="dropdown">
+                                        <li className="menu-item-has-children"><a href="#">Products Layout</a>
+                                            <ul className="dropdown">
                                                 <li><a href="product-details.html">tab style 1</a></li>
                                                 <li><a href="product-details-2.html">tab style 2</a></li>
                                                 <li><a href="product-details-sticky.html">sticky style</a></li>
@@ -301,8 +304,8 @@ const App = () => {
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children"><a href="#">Pages</a>
-                                    <ul class="dropdown">
+                                <li className="menu-item-has-children"><a href="#">Pages</a>
+                                    <ul className="dropdown">
                                         <li><a href="about-us.html">about us </a></li>
                                         <li><a href="cart.html">cart page</a></li>
                                         <li><a href="checkout.html">checkout </a></li>
@@ -314,8 +317,8 @@ const App = () => {
                                         <li><a href="login-register.html">login / register </a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children "><a href="#">Blog</a>
-                                    <ul class="dropdown">
+                                <li className="menu-item-has-children "><a href="#">Blog</a>
+                                    <ul className="dropdown">
                                         <li><a href="blog.html">blog standard </a></li>
                                         <li><a href="blog-no-sidebar.html">blog no sidebar </a></li>
                                         <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
@@ -327,13 +330,13 @@ const App = () => {
                         </nav>
                         {/* <!-- mobile menu end --> */}
                     </div>
-                    <div class="mobile-header-info-wrap mobile-header-padding-border-3">
-                        <div class="single-mobile-header-info">
-                            <a href="order-tracking.html"><i class="lastudioicon-pin-3-2"></i> Track Your Order </a>
+                    <div className="mobile-header-info-wrap mobile-header-padding-border-3">
+                        <div className="single-mobile-header-info">
+                            <a href="order-tracking.html"><i className="lastudioicon-pin-3-2"></i> Track Your Order </a>
                         </div>
-                        <div class="single-mobile-header-info">
-                            <a class="mobile-language-active" href="#">Language <span><i class="icon-arrow-down"></i></span></a>
-                            <div class="lang-curr-dropdown lang-dropdown-active">
+                        <div className="single-mobile-header-info">
+                            <a className="mobile-language-active" href="#">Language <span><i className="icon-arrow-down"></i></span></a>
+                            <div className="lang-curr-dropdown lang-dropdown-active">
                                 <ul>
                                     <li><a href="#">English</a></li>
                                     <li><a href="#">French</a></li>
@@ -342,9 +345,9 @@ const App = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="single-mobile-header-info">
-                            <a class="mobile-currency-active" href="#">Currency <span><i class="icon-arrow-down"></i></span></a>
-                            <div class="lang-curr-dropdown curr-dropdown-active">
+                        <div className="single-mobile-header-info">
+                            <a className="mobile-currency-active" href="#">Currency <span><i className="icon-arrow-down"></i></span></a>
+                            <div className="lang-curr-dropdown curr-dropdown-active">
                                 <ul>
                                     <li><a href="#">USD</a></li>
                                     <li><a href="#">EUR</a></li>
@@ -354,61 +357,61 @@ const App = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="mobile-contact-info mobile-header-padding-border-4">
+                    <div className="mobile-contact-info mobile-header-padding-border-4">
                         <ul>
-                            <li><i class="icon-phone "></i> (+612) 2531 5600</li>
-                            <li><i class="icon-envelope-open "></i> norda@domain.com</li>
-                            <li><i class="icon-home"></i> PO Box 1622 Colins Street West Australia</li>
+                            <li><i className="icon-phone "></i> (+612) 2531 5600</li>
+                            <li><i className="icon-envelope-open "></i> norda@domain.com</li>
+                            <li><i className="icon-home"></i> PO Box 1622 Colins Street West Australia</li>
                         </ul>
                     </div>
-                    <div class="mobile-social-icon">
-                        <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
-                        <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
-                        <a class="pinterest" href="#"><i class="icon-social-pinterest"></i></a>
-                        <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                    <div className="mobile-social-icon">
+                        <a className="facebook" href="#"><i className="icon-social-facebook"></i></a>
+                        <a className="twitter" href="#"><i className="icon-social-twitter"></i></a>
+                        <a className="pinterest" href="#"><i className="icon-social-pinterest"></i></a>
+                        <a className="instagram" href="#"><i className="icon-social-instagram"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="slider-area bg-gray">
-            <div class="hero-slider-active-1 hero-slider-pt-1 nav-style-1 dot-style-1">
-                <div class="single-hero-slider single-animation-wrap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="hero-slider-content-1 hero-slider-content-1-pt-1 slider-animated-1">
-                                    <h4 class="animated">New Arrivals</h4>
-                                    <h1 class="animated">Leather Simple <br/>Backpacks</h1>
-                                    <p class="animated">Discover our collection with leather simple backpacks. Less is more never out trend.</p>
-                                    <div class="btn-style-1">
-                                        <a class="animated btn-1-padding-1" href="product-details.html">Explore Now</a>
+        <div className="slider-area bg-gray">
+            <div className="hero-slider-active-1 hero-slider-pt-1 nav-style-1 dot-style-1">
+                <div className="single-hero-slider single-animation-wrap">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6">
+                                <div className="hero-slider-content-1 hero-slider-content-1-pt-1 slider-animated-1">
+                                    <h4 className="animated">New Arrivals</h4>
+                                    <h1 className="animated">Leather Simple <br/>Backpacks</h1>
+                                    <p className="animated">Discover our collection with leather simple backpacks. Less is more never out trend.</p>
+                                    <div className="btn-style-1">
+                                        <a className="animated btn-1-padding-1" href="product-details.html">Explore Now</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="hero-slider-img-1 slider-animated-1">
-                                    <img class="animated" src="assets/images/slider/hm-1-slider-1.png" alt=""/>
+                            <div className="col-lg-6 col-md-6 col-sm-6">
+                                <div className="hero-slider-img-1 slider-animated-1">
+                                    <img className="animated" src="assets/images/slider/hm-1-slider-1.png" alt=""/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="single-hero-slider single-animation-wrap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="hero-slider-content-1 hero-slider-content-1-pt-1 slider-animated-1">
-                                    <h4 class="animated">New Arrivals</h4>
-                                    <h1 class="animated">Leather Simple <br/>Backpacks</h1>
-                                    <p class="animated">Discover our collection with leather simple backpacks. Less is more never out trend.</p>
-                                    <div class="btn-style-1">
-                                        <a class="animated btn-1-padding-1" href="product-details.html">Explore Now</a>
+                <div className="single-hero-slider single-animation-wrap">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6">
+                                <div className="hero-slider-content-1 hero-slider-content-1-pt-1 slider-animated-1">
+                                    <h4 className="animated">New Arrivals</h4>
+                                    <h1 className="animated">Leather Simple <br/>Backpacks</h1>
+                                    <p className="animated">Discover our collection with leather simple backpacks. Less is more never out trend.</p>
+                                    <div className="btn-style-1">
+                                        <a className="animated btn-1-padding-1" href="product-details.html">Explore Now</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="hero-slider-img-1 slider-animated-1">
-                                    <img class="animated" src="assets/images/slider/hm-1-slider-1.png" alt=""/>
+                            <div className="col-lg-6 col-md-6 col-sm-6">
+                                <div className="hero-slider-img-1 slider-animated-1">
+                                    <img className="animated" src="assets/images/slider/hm-1-slider-1.png" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -416,49 +419,49 @@ const App = () => {
                 </div>
             </div>
         </div>
-        <div class="service-area">
-            <div class="container">
-                <div class="service-wrap">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="single-service-wrap mb-30">
-                                <div class="service-icon">
-                                    <i class="icon-cursor"></i>
+        <div className="service-area">
+            <div className="container">
+                <div className="service-wrap">
+                    <div className="row">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div className="single-service-wrap mb-30">
+                                <div className="service-icon">
+                                    <i className="icon-cursor"></i>
                                 </div>
-                                <div class="service-content">
+                                <div className="service-content">
                                     <h3>Free Shipping</h3>
                                     <span>Orders over $100</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="single-service-wrap mb-30">
-                                <div class="service-icon">
-                                    <i class="icon-reload"></i>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div className="single-service-wrap mb-30">
+                                <div className="service-icon">
+                                    <i className="icon-reload"></i>
                                 </div>
-                                <div class="service-content">
+                                <div className="service-content">
                                     <h3>Free Returns</h3>
                                     <span>Within 30 days</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="single-service-wrap mb-30">
-                                <div class="service-icon">
-                                    <i class="icon-lock"></i>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div className="single-service-wrap mb-30">
+                                <div className="service-icon">
+                                    <i className="icon-lock"></i>
                                 </div>
-                                <div class="service-content">
+                                <div className="service-content">
                                     <h3>100% Secure</h3>
                                     <span>Payment Online</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <div class="single-service-wrap mb-30">
-                                <div class="service-icon">
-                                    <i class="icon-tag"></i>
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div className="single-service-wrap mb-30">
+                                <div className="service-icon">
+                                    <i className="icon-tag"></i>
                                 </div>
-                                <div class="service-content">
+                                <div className="service-content">
                                     <h3>Best Price</h3>
                                     <span>Guaranteed</span>
                                 </div>
@@ -468,20 +471,20 @@ const App = () => {
                 </div>
             </div>
         </div>
-        <div class="about-us-area pt-85">
-            <div class="container">
-                <div class="border-bottom-1 about-content-pb">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3">
-                            <div class="about-us-logo">
+        <div className="about-us-area pt-85">
+            <div className="container">
+                <div className="border-bottom-1 about-content-pb">
+                    <div className="row">
+                        <div className="col-lg-3 col-md-3">
+                            <div className="about-us-logo">
                                 <img src="assets/images/about/logo.png" alt="logo"/>
                             </div>
                         </div>
-                        <div class="col-lg-9 col-md-9">
-                            <div class="about-us-content">
+                        <div className="col-lg-9 col-md-9">
+                            <div className="about-us-content">
                                 <h3>Introduce</h3>
                                 <p>Norda store is a business concept is to offer fashion and quality at the best price. It has since it was founded in 2018 grown into one of the best WooCommerce Fashion Theme. The content of this site is copyright-protected and is the property of David Moye Creative.</p>
-                                <div class="signature">
+                                <div className="signature">
                                     <h2>David Moye</h2>
                                 </div>
                             </div>
@@ -490,980 +493,980 @@ const App = () => {
                 </div>
             </div>
         </div>
-        <div class="product-area section-padding-1 pt-115 pb-75">
-            <div class="container">
-                <div class="section-title-tab-wrap mb-45">
-                    <div class="section-title">
+        <div className="product-area section-padding-1 pt-115 pb-75">
+            <div className="container">
+                <div className="section-title-tab-wrap mb-45">
+                    <div className="section-title">
                         <h2>Featured Products</h2>
                     </div>
-                    <div class="tab-style-1 nav">
-                        <a class="active" href="#product-1" data-bs-toggle="tab">Best Seller</a>
+                    <div className="tab-style-1 nav">
+                        <a className="active" href="#product-1" data-bs-toggle="tab">Best Seller</a>
                         <a href="#product-2" data-bs-toggle="tab"> Trending</a>
                         <a href="#product-3" data-bs-toggle="tab">New Arrivals </a>
                         <a href="#product-4" data-bs-toggle="tab">All Products</a>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="tab-content jump">
-                    <div id="product-1" class="tab-pane active">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+            <div className="container-fluid">
+                <div className="tab-content jump">
+                    <div id="product-1" className="tab-pane active">
+                        <div className="row">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-1.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Black T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-2.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Black Simple Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$38.50</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-3.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-20%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-20%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Lined Brown Swearshirt</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$46.00</span>
-                                                <span class="old-price">$66.75</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$46.00</span>
+                                                <span className="old-price">$66.75</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-4.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Simple Backpack</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$102.54</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-5.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-15%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-15%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Contrasting Sunglasses</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$35.45</span>
-                                                <span class="old-price">$45.80</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$35.45</span>
+                                                <span className="old-price">$45.80</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-6.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Blue T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-7.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Sport Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$37.86</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-8.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-black">Out of stock</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-black">Out of stock</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Basic Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$46.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="product-2" class="tab-pane">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                    <div id="product-2" className="tab-pane">
+                        <div className="row">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-8.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Basic Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-7.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Sport Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$38.50</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-6.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-20%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-20%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Blue T-Shirt</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$46.00</span>
-                                                <span class="old-price">$66.75</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$46.00</span>
+                                                <span className="old-price">$66.75</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-5.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Contrasting Sunglasses</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$102.54</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-4.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-15%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-15%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Simple Backpack</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$35.45</span>
-                                                <span class="old-price">$45.80</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$35.45</span>
+                                                <span className="old-price">$45.80</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-3.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Lined Brown Swearshirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-2.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Black Simple Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$37.86</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-1.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-black">Out of stock</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-black">Out of stock</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Black T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$46.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="product-3" class="tab-pane">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                    <div id="product-3" className="tab-pane">
+                        <div className="row">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
-                                            <img class="default-img" src="assets/images/product/product-4.jpg" alt=""/>
+                                            <img className="default-img" src="assets/images/product/product-4.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Simple Backpack</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-3.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Lined Brown Swearshirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$38.50</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-2.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-20%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-20%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Black Simple Sneaker</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$46.00</span>
-                                                <span class="old-price">$66.75</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$46.00</span>
+                                                <span className="old-price">$66.75</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-1.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Black T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$102.54</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-8.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-15%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-15%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Basic Sneaker</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$35.45</span>
-                                                <span class="old-price">$45.80</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$35.45</span>
+                                                <span className="old-price">$45.80</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-7.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Sport Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-6.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Blue T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$37.86</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-5.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-black">Out of stock</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-black">Out of stock</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Contrasting Sunglasses</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$46.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="product-4" class="tab-pane">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                    <div id="product-4" className="tab-pane">
+                        <div className="row">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-6.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Blue T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-7.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Sport Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$38.50</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-8.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-20%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-20%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Basic Sneaker</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$46.00</span>
-                                                <span class="old-price">$66.75</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$46.00</span>
+                                                <span className="old-price">$66.75</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-5.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Contrasting Sunglasses</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$102.54</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-4.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-red">-15%</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-red">-15%</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Norda Simple Backpack</a></h4>
-                                            <div class="product-price">
-                                                <span class="new-price">$35.45</span>
-                                                <span class="old-price">$45.80</span>
+                                            <div className="product-price">
+                                                <span className="new-price">$35.45</span>
+                                                <span className="old-price">$45.80</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-3.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Lined Brown Swearshirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$56.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-2.jpg" alt=""/>
                                         </a>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Black Simple Sneaker</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$37.86</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div class="single-product-wrap mb-35">
-                                    <div class="product-img product-img-zoom mb-20">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="single-product-wrap mb-35">
+                                    <div className="product-img product-img-zoom mb-20">
                                         <a href="product-details.html">
                                             <img src="assets/images/product/product-1.jpg" alt=""/>
                                         </a>
-                                        <span class="pro-badge left bg-black">Out of stock</span>
-                                        <div class="product-action-wrap">
-                                            <div class="product-action-left">
-                                                <button><i class="icon-basket-loaded"></i>Add to Cart</button>
+                                        <span className="pro-badge left bg-black">Out of stock</span>
+                                        <div className="product-action-wrap">
+                                            <div className="product-action-left">
+                                                <button><i className="icon-basket-loaded"></i>Add to Cart</button>
                                             </div>
-                                            <div class="product-action-right tooltip-style">
-                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i><span>Quick View</span></button>
-                                                <button class="font-inc"><i class="icon-refresh"></i><span>Compare</span></button>
+                                            <div className="product-action-right tooltip-style">
+                                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="icon-size-fullscreen icons"></i><span>Quick View</span></button>
+                                                <button className="font-inc"><i className="icon-refresh"></i><span>Compare</span></button>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-content-wrap">
-                                        <div class="product-content-left">
+                                    <div className="product-content-wrap">
+                                        <div className="product-content-left">
                                             <h4><a href="product-details.html">Simple Black T-Shirt</a></h4>
-                                            <div class="product-price">
+                                            <div className="product-price">
                                                 <span>$46.20</span>
                                             </div>
                                         </div>
-                                        <div class="product-content-right tooltip-style">
-                                            <button class="font-inc"><i class="icon-heart"></i><span>Wishlist</span></button>
+                                        <div className="product-content-right tooltip-style">
+                                            <button className="font-inc"><i className="icon-heart"></i><span>Wishlist</span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1473,32 +1476,32 @@ const App = () => {
                 </div>
             </div>
         </div>
-        <div class="banner-area pb-85">
-            <div class="container">
-                <div class="section-title mb-45">
+        <div className="banner-area pb-85">
+            <div className="container">
+                <div className="section-title mb-45">
                     <h2>Our Collections</h2>
                 </div>
-                <div class="row">
-                    <div class="col-lg-7 col-md-7">
-                        <div class="banner-wrap banner-mr-1 mb-30">
-                            <div class="banner-img banner-img-zoom">
+                <div className="row">
+                    <div className="col-lg-7 col-md-7">
+                        <div className="banner-wrap banner-mr-1 mb-30">
+                            <div className="banner-img banner-img-zoom">
                                 <a href="product-details.html"><img src="assets/images/banner/banner-1.jpg" alt=""/></a>
                             </div>
-                            <div class="banner-content-1">
+                            <div className="banner-content-1">
                                 <h2>Zara Pattern Boxed <br/>Underwear</h2>
                                 <p>Stretch, fresh-cool help you alway comfortable</p>
-                                <div class="btn-style-1">
-                                    <a class="animated btn-1-padding-2" href="product-details.html">Shop Now</a>
+                                <div className="btn-style-1">
+                                    <a className="animated btn-1-padding-2" href="product-details.html">Shop Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5">
-                        <div class="banner-wrap  banner-ml-1 mb-30">
-                            <div class="banner-img banner-img-zoom">
+                    <div className="col-lg-5 col-md-5">
+                        <div className="banner-wrap  banner-ml-1 mb-30">
+                            <div className="banner-img banner-img-zoom">
                                 <a href="product-details.html"><img src="assets/images/banner/banner-2.jpg" alt=""/></a>
                             </div>
-                            <div class="banner-content-2">
+                            <div className="banner-content-2">
                                 <h2>Basic Color Caps</h2>
                                 <p>Minimalist never cool, choose and make the simple great again!</p>
                             </div>
@@ -1507,61 +1510,61 @@ const App = () => {
                 </div>
             </div>
         </div>
-        <div class="instagram-area">
-            <div class="container">
-                <div class="section-title-tag-wrap mb-45">
-                    <div class="section-title">
+        <div className="instagram-area">
+            <div className="container">
+                <div className="section-title-tag-wrap mb-45">
+                    <div className="section-title">
                         <h2>Our Instagram</h2>
                     </div>
-                    <div class="instagram-tag">
+                    <div className="instagram-tag">
                         <span>#monkeylover</span>
                     </div>
                 </div>
-                <div class="instagram-wrap">
-                    <div id="instafeed" data-limit="5" class="instagram-wrap-1"></div>
+                <div className="instagram-wrap">
+                    <div id="instafeed" data-limit="5" className="instagram-wrap-1"></div>
                 </div>
             </div>
         </div>
-        <div class="brand-logo-area pt-100 pb-100">
-            <div class="container">
-                <div class="brand-logo-wrap brand-logo-mrg">
-                    <div class="single-brand-logo mb-10">
+        <div className="brand-logo-area pt-100 pb-100">
+            <div className="container">
+                <div className="brand-logo-wrap brand-logo-mrg">
+                    <div className="single-brand-logo mb-10">
                         <img src="assets/images/brand-logo/brand-logo-1.png" alt="brand-logo"/>
                     </div>
-                    <div class="single-brand-logo mb-10">
+                    <div className="single-brand-logo mb-10">
                         <img src="assets/images/brand-logo/brand-logo-2.png" alt="brand-logo"/>
                     </div>
-                    <div class="single-brand-logo mb-10">
+                    <div className="single-brand-logo mb-10">
                         <img src="assets/images/brand-logo/brand-logo-3.png" alt="brand-logo"/>
                     </div>
-                    <div class="single-brand-logo mb-10">
+                    <div className="single-brand-logo mb-10">
                         <img src="assets/images/brand-logo/brand-logo-4.png" alt="brand-logo"/>
                     </div>
-                    <div class="single-brand-logo mb-10">
+                    <div className="single-brand-logo mb-10">
                         <img src="assets/images/brand-logo/brand-logo-5.png" alt="brand-logo"/>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="subscribe-area bg-gray pt-115 pb-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-md-5">
-                        <div class="section-title">
+        <div className="subscribe-area bg-gray pt-115 pb-115">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-5 col-md-5">
+                        <div className="section-title">
                             <h2>keep connected</h2>
                             <p>Get updates by subscribe our weekly newsletter</p>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-md-7">
-                        <div id="mc_embed_signup" class="subscribe-form">
-                            <form id="mc-embedded-subscribe-form" class="validate subscribe-form-style" novalidate="" target="_blank" name="mc-embedded-subscribe-form" method="post" action="https://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef">
-                                <div id="mc_embed_signup_scroll" class="mc-form">
-                                    <input class="email" type="email" required="" placeholder="Enter your email address" name="EMAIL" value=""/>
-                                    <div class="mc-news" aria-hidden="true">
+                    <div className="col-lg-7 col-md-7">
+                        <div id="mc_embed_signup" className="subscribe-form">
+                            <form id="mc-embedded-subscribe-form" className="validate subscribe-form-style" novalidate="" target="_blank" name="mc-embedded-subscribe-form" method="post" action="https://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef">
+                                <div id="mc_embed_signup_scroll" className="mc-form">
+                                    <input className="email" type="email" required="" placeholder="Enter your email address" name="EMAIL" value=""/>
+                                    <div className="mc-news" aria-hidden="true">
                                         <input type="text" value="" tabindex="-1" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef"/>
                                     </div>
-                                    <div class="clear">
-                                        <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Subscribe"/>
+                                    <div className="clear">
+                                        <input id="mc-embedded-subscribe" className="button" type="submit" name="subscribe" value="Subscribe"/>
                                     </div>
                                 </div>
                             </form>
@@ -1570,27 +1573,27 @@ const App = () => {
                 </div>
             </div>
         </div>
-        <footer class="footer-area bg-gray pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="contact-info-wrap">
-                            <div class="footer-logo">
+        <footer className="footer-area bg-gray pb-30">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6">
+                        <div className="contact-info-wrap">
+                            <div className="footer-logo">
                                 <a href="#"><img src="assets/images/logo/logo.png" alt="logo"/></a>
                             </div>
-                            <div class="single-contact-info">
+                            <div className="single-contact-info">
                                 <span>Our Location</span>
                                 <p>869 General Village Apt. 645, Moorebury, USA</p>
                             </div>
-                            <div class="single-contact-info">
+                            <div className="single-contact-info">
                                 <span>24/7 hotline:</span>
                                 <p>(+99) 052 128 2399</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer-right-wrap">
-                            <div class="footer-menu">
+                    <div className="col-lg-6 col-md-6">
+                        <div className="footer-right-wrap">
+                            <div className="footer-menu">
                                 <nav>
                                     <ul>
                                         <li><a href="index.html">home</a></li>
@@ -1601,14 +1604,14 @@ const App = () => {
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="social-style-2 social-style-2-mrg">
-                                <a href="#"><i class="social_twitter"></i></a>
-                                <a href="#"><i class="social_facebook"></i></a>
-                                <a href="#"><i class="social_googleplus"></i></a>
-                                <a href="#"><i class="social_instagram"></i></a>
-                                <a href="#"><i class="social_youtube"></i></a>
+                            <div className="social-style-2 social-style-2-mrg">
+                                <a href="#"><i className="social_twitter"></i></a>
+                                <a href="#"><i className="social_facebook"></i></a>
+                                <a href="#"><i className="social_googleplus"></i></a>
+                                <a href="#"><i className="social_instagram"></i></a>
+                                <a href="#"><i className="social_youtube"></i></a>
                             </div>
-                            <div class="copyright">
+                            <div className="copyright">
                                 <p>Copyright © 2021 HasThemes | <a href="https://hasthemes.com/">Built with <span>Norda</span> by HasThemes</a>.</p>
                             </div>
                         </div>
@@ -1617,80 +1620,80 @@ const App = () => {
             </div>
         </footer>
         {/* <!-- Modal --> */}
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+        <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+            <div className="modal-dialog" role="document">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
                     </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-lg-5 col-md-6 col-12 col-sm-12">
-                                <div class="tab-content quickview-big-img">
-                                    <div id="pro-1" class="tab-pane fade show active">
+                    <div className="modal-body">
+                        <div className="row">
+                            <div className="col-lg-5 col-md-6 col-12 col-sm-12">
+                                <div className="tab-content quickview-big-img">
+                                    <div id="pro-1" className="tab-pane fade show active">
                                         <img src="assets/images/product/product-1.jpg" alt=""/>
                                     </div>
-                                    <div id="pro-2" class="tab-pane fade">
+                                    <div id="pro-2" className="tab-pane fade">
                                         <img src="assets/images/product/product-3.jpg" alt=""/>
                                     </div>
-                                    <div id="pro-3" class="tab-pane fade">
+                                    <div id="pro-3" className="tab-pane fade">
                                         <img src="assets/images/product/product-6.jpg" alt=""/>
                                     </div>
-                                    <div id="pro-4" class="tab-pane fade">
+                                    <div id="pro-4" className="tab-pane fade">
                                         <img src="assets/images/product/product-3.jpg" alt=""/>
                                     </div>
                                 </div>
-                                <div class="quickview-wrap mt-15">
-                                    <div class="quickview-slide-active nav nav-style-6">
-                                        <a class="active" data-bs-toggle="tab" href="#pro-1"><img src="assets/images/product/quickview-s1.jpg" alt=""/></a>
+                                <div className="quickview-wrap mt-15">
+                                    <div className="quickview-slide-active nav nav-style-6">
+                                        <a className="active" data-bs-toggle="tab" href="#pro-1"><img src="assets/images/product/quickview-s1.jpg" alt=""/></a>
                                         <a data-bs-toggle="tab" href="#pro-2"><img src="assets/images/product/quickview-s2.jpg" alt=""/></a>
                                         <a data-bs-toggle="tab" href="#pro-3"><img src="assets/images/product/quickview-s3.jpg" alt=""/></a>
                                         <a data-bs-toggle="tab" href="#pro-4"><img src="assets/images/product/quickview-s2.jpg" alt=""/></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-7 col-md-6 col-12 col-sm-12">
-                                <div class="product-details-content quickview-content">
+                            <div className="col-lg-7 col-md-6 col-12 col-sm-12">
+                                <div className="product-details-content quickview-content">
                                     <h2>Simple Black T-Shirt</h2>
-                                    <div class="product-ratting-review-wrap">
-                                        <div class="product-ratting-digit-wrap">
-                                            <div class="product-ratting">
-                                                <i class="icon_star"></i>
-                                                <i class="icon_star"></i>
-                                                <i class="icon_star"></i>
-                                                <i class="icon_star"></i>
-                                                <i class="icon_star"></i>
+                                    <div className="product-ratting-review-wrap">
+                                        <div className="product-ratting-digit-wrap">
+                                            <div className="product-ratting">
+                                                <i className="icon_star"></i>
+                                                <i className="icon_star"></i>
+                                                <i className="icon_star"></i>
+                                                <i className="icon_star"></i>
+                                                <i className="icon_star"></i>
                                             </div>
-                                            <div class="product-digit">
+                                            <div className="product-digit">
                                                 <span>5.0</span>
                                             </div>
                                         </div>
-                                        <div class="product-review-order">
+                                        <div className="product-review-order">
                                             <span>62 Reviews</span>
                                             <span>242 orders</span>
                                         </div>
                                     </div>
                                     <p>Seamlessly predominate enterprise metrics without performance based process improvements.</p>
-                                    <div class="pro-details-price">
-                                        <span class="new-price">$75.72</span>
-                                        <span class="old-price">$95.72</span>
+                                    <div className="pro-details-price">
+                                        <span className="new-price">$75.72</span>
+                                        <span className="old-price">$95.72</span>
                                     </div>
-                                    <div class="pro-details-color-wrap">
+                                    <div className="pro-details-color-wrap">
                                         <span>Color:</span>
-                                        <div class="pro-details-color-content">
+                                        <div className="pro-details-color-content">
                                             <ul>
-                                                <li><a class="dolly" href="#">dolly</a></li>
-                                                <li><a class="white" href="#">white</a></li>
-                                                <li><a class="azalea" href="#">azalea</a></li>
-                                                <li><a class="peach-orange" href="#">Orange</a></li>
-                                                <li><a class="mona-lisa active" href="#">lisa</a></li>
-                                                <li><a class="cupid" href="#">cupid</a></li>
+                                                <li><a className="dolly" href="#">dolly</a></li>
+                                                <li><a className="white" href="#">white</a></li>
+                                                <li><a className="azalea" href="#">azalea</a></li>
+                                                <li><a className="peach-orange" href="#">Orange</a></li>
+                                                <li><a className="mona-lisa active" href="#">lisa</a></li>
+                                                <li><a className="cupid" href="#">cupid</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="pro-details-size">
+                                    <div className="pro-details-size">
                                         <span>Size:</span>
-                                        <div class="pro-details-size-content">
+                                        <div className="pro-details-size-content">
                                             <ul>
                                                 <li><a href="#">XS</a></li>
                                                 <li><a href="#">S</a></li>
@@ -1700,31 +1703,31 @@ const App = () => {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="pro-details-quality">
+                                    <div className="pro-details-quality">
                                         <span>Quantity:</span>
-                                        <div class="cart-plus-minus">
-                                            <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1"/>
+                                        <div className="cart-plus-minus">
+                                            <input className="cart-plus-minus-box" type="text" name="qtybutton" value="1"/>
                                         </div>
                                     </div>
-                                    <div class="product-details-meta">
+                                    <div className="product-details-meta">
                                         <ul>
                                             <li><span>Categories:</span> <a href="#">Woman,</a> <a href="#">Dress,</a> <a href="#">T-Shirt</a></li>
                                             <li><span>Tag: </span> <a href="#">Fashion,</a> <a href="#">Mentone</a> , <a href="#">Texas</a></li>
                                         </ul>
                                     </div>
-                                    <div class="pro-details-action-wrap">
-                                        <div class="pro-details-add-to-cart">
+                                    <div className="pro-details-action-wrap">
+                                        <div className="pro-details-add-to-cart">
                                             <a title="Add to Cart" href="#">Add To Cart </a>
                                         </div>
-                                        <div class="pro-details-action">
-                                            <a title="Add to Wishlist" href="#"><i class="icon-heart"></i></a>
-                                            <a title="Add to Compare" href="#"><i class="icon-refresh"></i></a>
-                                            <a class="social" title="Social" href="#"><i class="icon-share"></i></a>
-                                            <div class="product-dec-social">
-                                                <a class="facebook" title="Facebook" href="#"><i class="icon-social-facebook"></i></a>
-                                                <a class="twitter" title="Twitter" href="#"><i class="icon-social-twitter"></i></a>
-                                                <a class="instagram" title="Instagram" href="#"><i class="icon-social-instagram"></i></a>
-                                                <a class="pinterest" title="Pinterest" href="#"><i class="icon-social-pinterest"></i></a>
+                                        <div className="pro-details-action">
+                                            <a title="Add to Wishlist" href="#"><i className="icon-heart"></i></a>
+                                            <a title="Add to Compare" href="#"><i className="icon-refresh"></i></a>
+                                            <a className="social" title="Social" href="#"><i className="icon-share"></i></a>
+                                            <div className="product-dec-social">
+                                                <a className="facebook" title="Facebook" href="#"><i className="icon-social-facebook"></i></a>
+                                                <a className="twitter" title="Twitter" href="#"><i className="icon-social-twitter"></i></a>
+                                                <a className="instagram" title="Instagram" href="#"><i className="icon-social-instagram"></i></a>
+                                                <a className="pinterest" title="Pinterest" href="#"><i className="icon-social-pinterest"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1738,5 +1741,6 @@ const App = () => {
         {/* <!-- Modal end --> */}
         </div>
    </div>
+   
     )} 
   export default App
